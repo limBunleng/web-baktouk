@@ -57,22 +57,35 @@ body {
    margin-left: 125px;
    border-radius: 5px;
    background-color: green;
-   color: white;
    border: none;
    font-size: medium;
 }
 .btn:hover{
-   background-color: blue;
+   background-color: rgb(255, 0, 234);
 }
 
+.btn a {
+   color: white;
+}
+
+
+
+
+
 @media (max-width: 768px) {
+   
    .main-form{
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 50px;
-
    }
+
+   .btn{
+      margin-left: 100px;
+     
+   }
+
 }
 
 
