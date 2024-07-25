@@ -75,14 +75,21 @@ body {
 @media (max-width: 768px) {
    
    .main-form{
+      
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 50px;
    }
 
+   .form{
+      padding: 30px ;
+     
+
+   }
+   
    .btn{
-      margin-left: 100px;
+     margin-left: 50px;
      
    }
 
